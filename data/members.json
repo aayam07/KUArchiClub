@@ -1,0 +1,47 @@
+[
+    {
+        "name" : "Nishant Paudel",
+        "url" : "images/board/nishant.JPG",
+        "position" : "President (4th Year)"
+    },
+    {
+        "name" : "Aditya Raman Singh",
+        "url" : "images/board/aditya.JPG",
+        "position" : "Vice-President (3rd Year)"
+    },
+    {
+        "name" : "Kartabya Regmi",
+        "url" : "images/board/kartabya.JPG",
+        "position" : "Secretary (4th Year)"
+    },
+    {
+        "name" : "Smriti Panta",
+        "url" : "images/board/smriti2.JPG",
+        "position" : "Vice-Secretary (3rd Year)"
+    },
+    {
+        "name" : "Bibha Devkota",
+        "url" : "images/board/bibha.JPG",
+        "position" : "Treasurer (4th Year)"
+    },
+    {
+        "name" : "Shruti Shrestha",
+        "url" : "images/board/shruti.JPG",
+        "position" : "Executive (4th Year)"
+    },
+    {
+        "name" : "Chandani Jha",
+        "url" : "images/board/chandani.JPG",
+        "position" : "Executive (3rd Year)"
+    },
+    {
+        "name" : "Yugesh Thapa",
+        "url" : "images/board/yugesh.jpg",
+        "position" : "Executive (2nd Year)"
+    },
+    {
+        "name" : "Sejal Bhandari",
+        "url" : "images/board/sejal.JPG",
+        "position" : "Executive (1st Year)"
+    }
+]
