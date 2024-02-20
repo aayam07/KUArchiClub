@@ -13,7 +13,7 @@ $email_body = "User Name: $name.\n".
                 "User Message: $message .\n";
 
 
-$to = 'thisisleo7@gmail.com'
+$to = 'thisisleo7@gmail.com';
 
 $headers = "From: $email_from \r\n";
 
