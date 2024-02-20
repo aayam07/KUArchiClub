@@ -210,6 +210,38 @@
         >
       </p>
     </section>
+
+     <!-- Javascript code for cross and menu icons funcionality -->
+    <script>
+      // for members click pop-up
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+
+
+      function showImage(imageSrc, name, position) {
+        var modal = document.querySelector(".overlay");
+        var modalImage = document.getElementById("modal-image");
+        var memberInfo = document.getElementById("member-info");
+
+        modalImage.src = imageSrc;
+        memberInfo.innerHTML = `<h2>${name}</h2><p>${position}</p>`;
+
+        modal.style.display = "block";
+      }
+
+      function hideImage() {
+        var modal = document.querySelector(".overlay");
+        modal.style.display = "none";
+      }
+    </script>
     
     <script src="js/fetch.js"></script>
   </body>
