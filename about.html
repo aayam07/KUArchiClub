@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUARC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- HEADER/HOME SECTION -->
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./images/archi_logo_main.png" alt="logo"></a>
+            <div class="nav_links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="members.html">Members</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+
+    <!-- About Us: Content -->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col" style="margin-top: -80px;">
+                <h1>Who and What?</h1>
+                <p style="padding: 0;">Welcome to the Architecture Club at Kathmandu University, where creativity meets innovation, and dreams take shape in bricks and mortar.
+
+                    Founded with a vision to foster a community of aspiring architects and design enthusiasts, our club serves as a hub for collaboration, learning, and exploration within the captivating realm of architecture.
+                    
+                    At our core, we believe in the power of architecture to shape the world around us, blending functionality with aesthetic appeal to create spaces that inspire and resonate with the human spirit. Whether you're an experienced architect or someone simply intrigued by the art of design, our club offers a diverse range of activities and events to engage and enrich your passion for architecture.
+                    
+                    From hands-on workshops and design competitions to guest lectures and architectural tours, we provide opportunities for students to expand their knowledge, sharpen their skills, and connect with like-minded individuals who share a common love for the built environment.
+                    
+                    Driven by innovation and guided by a commitment to excellence, our club encourages exploration, experimentation, and the exchange of ideas, empowering students to push the boundaries of traditional architecture and embrace new perspectives that challenge the status quo.
+                    
+                    Join us as we embark on a journey of discovery, creativity, and growth, shaping the future of architecture one blueprint at a time. Together, let's build a brighter tomorrow, where design knows no limits and every structure tells a story.</p>
+
+                <a href="#" class="know-more-btn red-btn">Board Members</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about_img.jpeg" alt="About Us">
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Footer -->
+
+    <section class="footer" style="background-image: url(images/footer_background.png);">
+        <div class="footer-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <p>Copyright <i class="fa fa-copyright"></i> 2024 KUARC. All rights reserved.</p>
+        <hr style="width: 50%; margin: auto;">
+        <p>Developed by <a href="https://www.linkedin.com/in/aayam-adhikari-588aa11ba/" style="color:lightcoral">Aayam Adhikari</a></p>
+       </section>
+
+
+
+    <!-- Javascript code for cross and menu icons funcionality -->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
