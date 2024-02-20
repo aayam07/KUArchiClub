@@ -2,7 +2,7 @@ const boardMemberContainer = document.querySelector(".board-members");
 
 
 const fetchMembers = () => {
-  fetch("/../data/members.json")
+  fetch("data/members.json")
     .then(res => res.json())
     .then(data => {
       console.log(data)
