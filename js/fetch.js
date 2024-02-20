@@ -10,6 +10,9 @@ const fetchMembers = () => {
       data.forEach(person => {
         const member = document.createElement("div");
         member.classList.add("member");
+        member.addEventListener('click',(e) => {
+          showImage(person.url,person.name,person.position)
+        })
         member.innerHTML = `
                 <div class="card">
                           <img src="${person.url}" alt="Jane Smith">
