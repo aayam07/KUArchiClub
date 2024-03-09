@@ -1,9 +1,11 @@
+<?php
+
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'www.gmail.com';
+$email_from = 'info@archclub.ku.edu.np';
 
 $email_subject = 'New Form Submission';
 
