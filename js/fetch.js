@@ -15,7 +15,7 @@ const fetchMembers = () => {
         })
         member.innerHTML = `
                 <div class="card">
-                          <img src="${person.url}" alt="Jane Smith">
+                          <img src="${person.url}" alt="Member">
                           <div class="member-info">
                             <h3>${person.name}</h3>
                             <p>${person.position}</p>

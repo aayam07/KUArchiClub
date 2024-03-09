@@ -61,7 +61,7 @@
 
     <section class="blog-content">
       <div class="row">
-        <div class="blog-left">
+        <div class="blog-left eventpics">
           <div class="container">
             <div class="board-members" >
               <!-- Add more members as needed -->
@@ -110,13 +110,13 @@
 
 
 
-      function showImage(imageSrc, name, position) {
+      function showImage(imageSrc) {
         var modal = document.querySelector(".overlay");
         var modalImage = document.getElementById("modal-image");
         var memberInfo = document.getElementById("member-info");
 
         modalImage.src = imageSrc;
-        memberInfo.innerHTML = `<h2>${name}</h2><p>${position}</p>`;
+        // memberInfo.innerHTML = `<h2>${name}</h2><p>${position}</p>`;
 
         modal.style.display = "block";
       }
@@ -127,6 +127,6 @@
       }
     </script>
     
-    <script src="js/fetch.js"></script>
+    <script src="js/prarambha23.js"></script>
   </body>
 </html>

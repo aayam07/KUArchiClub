@@ -447,7 +447,7 @@ h3{
 .about-col{
     flex-basis: 48%;
     padding: 30px 2px;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 .about-col img{
@@ -486,6 +486,10 @@ h3{
 
 .blog-left{
     flex-basis: 65%;
+}
+
+.eventpics{
+    flex-basis: 100%;
 }
 
 .blog-left img{
