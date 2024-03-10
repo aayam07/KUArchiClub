@@ -1,5 +1,4 @@
 <?php
-
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
@@ -12,18 +11,16 @@ $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
                 "User Email: $visitor_email.\n".
                 "Subject: $subject.\n".
-                "User Message: $message .\n";
-
+                "User Message: $message.\n";
 
 $to = 'thisisleo7@gmail.com';
 
 $headers = "From: $email_from \r\n";
-
-$headers .="Reply-To: $visitor_email \r\n";
+$headers .= "Reply-To: $visitor_email \r\n";
 
 mail($to, $email_subject, $email_body, $headers);
 
-<!-- To stay in the same contact us page after submission -->
-header("Location: contact.html");  
-
+// Redirect to the contact.html page
+header("Location: contact.html");
+exit; // Ensure that no further code is executed after the redirect
 ?>
